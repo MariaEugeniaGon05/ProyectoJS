@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atenea</title>
+  </head>
+  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./style.css"></script>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"
+    />
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <ul class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img class="logo"src="#"/> Atenea</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Perfumes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Cremas</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </nav>
+    </header>
+    <div class="container">
+        <h1 >Perfumes</h1>
+        <div class="row">
+          <div id="vip" class="col-md-4">
+            <a href="#" class="btn btn-primary">Agregar al carro</a>
+          </div>
+          <div id="amor" class="col-md-4"></div>
+          <div id="terra" class="col-md-4"></div>
+          <div id="mywey" class="col-md-4"></div>
+          <div id="si" class="col-md-4"></div>
+          <div id="valentino" class="col-md-4"></div>
+        </div>
+      </div>
+    <script src="bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script>
+    <script src= "./DomElements.js"></script>
+    <script src= "./Arrays.js"></script>
+  </body>
+</html>
